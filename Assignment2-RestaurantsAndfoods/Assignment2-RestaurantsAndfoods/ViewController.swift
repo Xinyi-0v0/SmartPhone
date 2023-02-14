@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if tableView == tblViewTop { // 处理上面的表格视图
+        if tableView == tblViewTop { 
             let selectedRestaurant = restaurants[indexPath.row]
             switch selectedRestaurant {
             case "Shake Shack":
